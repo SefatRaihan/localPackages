@@ -1,0 +1,160 @@
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+
+
+
+.top-header .logo{
+   /*text-align: center;*/
+    font-weight: bold;
+    font-size: 45px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 40px;
+
+
+
+
+}
+.flex-container .reg{
+    display: inline-flex;
+
+
+}
+.reg p:first-child{
+    padding-top: 5px;
+
+}
+.reg p:last-child{
+    background-color: red;
+    margin: 0 0 10px 10px;
+    padding: 5px;
+    border-radius: 8px;
+    color: #fefefe;
+
+}
+
+.search{
+    background-color: rgba(255, 25, 0, 0.85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    height: 200px;
+    color: #fefefe;
+
+}
+
+.form-outline{
+    width: 500px;
+    padding-top: 20px;
+
+}
+.grid-containe{
+    display: grid;
+    grid-template-columns: 300px auto;
+    margin: 30px 40px;
+}
+.main{
+    margin-left: 40px;
+}
+.card{
+    background: #fefefe;
+
+
+}
+.aside{
+    padding-top: 20px;
+}
+.aside p{
+    padding-left: 20px;
+}
+.aside p:hover{
+    color: red;
+    box-shadow: -3px 0 0 ;
+    font-weight: bold;
+
+}
+.aside p a{
+    text-decoration: none;
+    color: black;
+}
+.aside p a:hover{
+    color: red;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.contact .btn button{
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: red;
+    border: red;
+    color: #fefefe;
+}
+.contact h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.contact p{
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+.accordion {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: red;
+    color: white;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
